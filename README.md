@@ -18,4 +18,3 @@ zip test.zip *.txt
 
 ### submit test.zip to DOTA
 [DOTA](http://bed4rs.net:8001/evaluation2/)
-```
