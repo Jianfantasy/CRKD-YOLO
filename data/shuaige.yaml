@@ -1,0 +1,22 @@
+
+
+#下面：后要空一格不然会报错    （例如：path：（空格）   ）
+
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#train: images/train2017  # train images (relative to 'path') 128 images
+#val: images/train2017  # val images (relative to 'path') 128 images
+#test:  # test images (optional)
+
+
+train: C:\Users\Administrator\Desktop\yolov5-6.2\data\shuaige\train\images  # train images (relative to 'path') 128 images
+val: C:\Users\Administrator\Desktop\yolov5-6.2\data\shuaige\val\imgaes      # val images (relative to 'path') 128 images
+
+
+
+# Classes
+nc: 1  # number of classes
+names: ['shuaige']  # class names
+
+
