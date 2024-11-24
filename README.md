@@ -1,7 +1,7 @@
 
 ```markdown
 ### 进行测试
-```
+```bash
 python val_test.py --weights 'weights/DOTA_512.pt' --data data/DOTA.yaml --batch-size 8 --img 512 --task test --save-conf --save-txt
 ```
 
