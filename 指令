@@ -1,6 +1,0 @@
-python val_test.py --weights 'runs/train/exp/weights_512/last.pt' --data data/DOTA.yaml--batch-size 8 --img 512 --task test --save-conf --save-txt --device 
-
-python data/DOTA_devkit_YOLO/ResultMerge.py --scratch runs/test/exp/labels/
-
-cd runs/test/exp/labels_merge/
-zip test.zip *.txt
