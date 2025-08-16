@@ -35,23 +35,26 @@ python train_CRKD.py --weights "" --data data/DOTA.yaml --cfg_low path/to/cfg_lo
 
 
 
-<div>			<!--块级封装-->
-    <center>	<!--将图片和文字居中-->
+<div>		
+    <center>	
     <img src=".\figures\target-size-vary.png"
          alt="False"
          style="zoom:80%"/>
     <br>		<!--换行-->
-    Comparison of performance on varying size targets between our CRKD-YOLO and baseline YOLOv5s.	<!--标题-->
+    Comparison of performance on varying size targets between our CRKD-YOLO and baseline YOLOv5s.	
     </center>
 </div>
 
-<div>			<!--块级封装-->
-    <center>	<!--将图片和文字居中-->
+
+
+
+<div>			
+    <center>	
     <img src=".\figures\Visualization of the detection results in high- and low-resolution images.png"
          alt="False"
          style="zoom:80%"/>
-    <br>		<!--换行-->
-    Visualization of the detection results in high- and low-resolution images.png	<!--标题-->
+    <br>		
+    Visualization of the detection results in high- and low-resolution images.png	
     </center>
 </div>
 
